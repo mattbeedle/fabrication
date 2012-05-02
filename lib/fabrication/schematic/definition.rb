@@ -1,7 +1,6 @@
 class Fabrication::Schematic::Definition
 
   GENERATORS = [
-    Fabrication::Generator::ActiveRecord,
     Fabrication::Generator::Sequel,
     Fabrication::Generator::Mongoid,
     Fabrication::Generator::Base
